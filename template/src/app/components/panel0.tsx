@@ -1,11 +1,11 @@
+import { Textarea } from "@/components/ui/textarea";
 
-function panel0() {
+const NotesPage = () => {
   return (
-    <div>
-      <h1>Panel 0</h1>
+    <div className="w-full h-full flex items-center justify-center">
+      <Textarea placeholder="Write your notes here..." className="w-1/2 h-1/2" />
     </div>
   );
-}
+};
 
-export default panel0;
-
+export default NotesPage;

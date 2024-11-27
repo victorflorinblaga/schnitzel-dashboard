@@ -1,12 +1,11 @@
+import React from 'react';
 
-function panel3() {
-    return (
-      <div>
-        <h1>Panel 3</h1>
-      </div>
-    );
-  }
-  
-  export default panel3;
-  
-  
+const SimplePage = () => {
+  return (
+    <div className="w-full h-full flex items-center justify-center">
+      <p>This is a simple centered text.</p>
+    </div>
+  );
+};
+
+export default SimplePage;
